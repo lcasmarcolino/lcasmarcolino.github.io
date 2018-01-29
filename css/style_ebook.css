@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Offside&subset=latin-ext');
+/* CSS Document */
+
+
+hr.white{
+	border: 0;
+	height: 2px;
+	background: -webkit-linear-gradient(left, white, rgba(0,0,0,0));
+}
+hr.white-2{
+	border: 0;
+	height: 1px;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0), white, rgba(0,0,0,0));
+	margin-top: 0;
+}
+
+.ebook{
+
+	background-image: url(../images/back-confirma.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.ebook-head{
+	padding-top: 100px;
+	background-image: url(../images/bg-ebook.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+
+}
+
+.ebook-head img{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.ebook-head h1{
+	font-family: 'Monda';
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 45px;
+	color: #25d338;
+}
+
+.ebook-head p{
+	font-family: 'Monda';
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+
+}
+
+#cta-ebook{	
+	font-family: 'Offside', cursive;
+	font-size: 25px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 30px;
+	margin:50px 0;
+    cursor: pointer;
+	width: 550px;
+	color: white;
+	background: rgba(7,185,22,1);
+	background: -moz-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,185,22,1)), color-stop(69%, rgba(43,216,112,1)), color-stop(100%, rgba(43,216,112,1)));
+	background: -webkit-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -o-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -ms-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: linear-gradient(to right, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+
+}
+
+#cta-ebook2{	
+	font-family: 'Offside', cursive;
+	font-size: 25px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 30px;
+	margin:50px 0;
+    cursor: pointer;
+	width: 550px;
+	color: white;
+	background: rgba(7,185,22,1);
+	background: -moz-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,185,22,1)), color-stop(69%, rgba(43,216,112,1)), color-stop(100%, rgba(43,216,112,1)));
+	background: -webkit-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -o-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: -ms-linear-gradient(left, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+	background: linear-gradient(to right, rgba(7,185,22,1) 0%, rgba(43,216,112,1) 69%, rgba(43,216,112,1) 100%);
+
+}
+/* -------------------EBOOK CONTEUDO--------------------- */
+
+.ebook-conteudo{
+	padding: 50px 0;
+}
+
+.ebook-conteudo h2{
+	font-family: 'Monda', sans-serif;
+	color: #25d338;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.ebook-conteudo img{
+	width: 100%;
+	margin: 50px 0;
+}
+
+.ebook-conteudo p{
+	padding: 20px 0;
+	font-family: 'Offside';
+	color: white;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+/* -------------------O QUE SERA FALADO--------------------- */
+
+.oque-sera-falado{
+	padding: 50px 0;
+	
+}
+
+.oque-sera-falado h3{
+	font-family: 'Monda', sans-serif;
+	color: #2bd86f;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.box{
+	background-color: #0a0a0a;
+	border-radius: 10px;
+	padding: 50px 0 0 0;
+	margin: 60px 0;
+}
+
+
+.oque-sera-falado ul {
+  	padding: 0;
+}
+
+.oque-sera-falado li {
+	margin: 0;
+	list-style: none;
+	background-image: url(../images/check-icon.png);
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+	line-height: 30px;
+    padding-left:90px;
+	display: block;
+	color: white;
+	font-family: 'Offside';
+	font-size: 16px;
+}
+.oque-sera-falado p{
+	color: #2bd86f;
+	font-family: 'Offside';
+	font-size: 18px;
+	line-height: 30px;
+	padding: 40px 0;
+}
+/* -------------------TRADER--------------------- */
+
+
+.trader{
+	margin: 50px 0;
+	padding: 50px 0;
+	background-color: rgba(255,255,255,0.05)
+}
+
+
+.trader h4{
+	font-family: 'Monda';
+	font-size: 35px;
+	color: #2bd86f;
+	text-transform: uppercase;
+}
+
+.trader img{
+	width: 90%;
+}
+
+.trader p{
+	font-family: 'Offside', cursive;
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.trader-duarte p{
+	margin: 50px 0 50px 0;}
+
+.foto-trader{
+	margin: 50px 0 10px;}
+
+/* -------------------HORA DE APRENDER--------------------- */
+
+.hora-de-aprender{
+	margin: 50px 0;
+}
+
+.hora-de-aprender h5{
+	font-family: 'Monda';
+	font-size: 35px;
+	color: #25d338;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+
+.hora-de-aprender p{
+	font-family: 'Monda';
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	margin: 50px 0;
+	line-height: 35px;
+}
+
+/* -------------------FOOTER--------------------- */
+
+footer{
+	background-color: black;
+}
+
+footer img{
+	width: 80px;
+	margin: 40px;
+	
+}
+footer p{
+	margin: 50px 0;
+	
+}
+footer a{
+	text-decoration: none;
+	color:#333333;
+}
+
+.LCAS{
+	font-size: 12px;
+	margin-bottom: 10px;
+}

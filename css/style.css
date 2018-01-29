@@ -1,0 +1,234 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Offside&subset=latin-ext');
+/* CSS Document */
+body{
+	margin: 0;
+}
+
+/* -------------------HEADER--------------------- */
+header{
+	background-image: url(../images/back.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #000000;
+
+}
+hr.white{
+	border: 0;
+	height: 2px;
+	background: -webkit-linear-gradient(left, white, rgba(0,0,0,0));
+}
+hr.white-2{
+	border: 0;
+	height: 1px;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0), white, rgba(0,0,0,0));
+	margin-top: 0;
+}
+
+p::selection {
+  background: #a1ff00;
+}
+p::-moz-selection {
+  background: #a1ff00;
+}
+
+.logo img{
+	width: 90%;
+	margin: 30px 0 0 0;
+	float: left;
+	position: absolute;
+}
+
+.left p{
+	font-family: 'Offside', cursive;
+	color: white;
+	margin: 230px 0 0 0;
+	font-size: 23px;
+	text-shadow: 10px 5px 40px black;
+}
+
+.right img{
+	float: left;
+	width: 480px;
+	position: absolute;
+	margin: 50px 0 0 0;
+
+}
+
+
+.bold {	
+	color: #a1ff00;	font-family: 'Monda', sans-serif; font-weight: 700;
+}
+.bold-2 { font-family: 'Monda', sans-serif;font-weight: 700;}
+
+
+
+.cta{
+	font-family: 'Offside', cursive;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 30px;
+	margin: 30px 0 0 0;
+    cursor: pointer;
+	color: white;
+	background-color: black;
+	font-size: 18px;
+}
+.cta:hover{
+	background-color: #a1ff00;
+	color: black;
+}
+
+.videos{
+	margin: 60px 0 0px 0;
+	display: block;
+
+}
+
+.video1 {
+	width: 100%;
+	height: 180px;
+	margin: 0px;
+	background-image: url(../images/video-1-apostas-online.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 95%;
+	border-radius: 5px;
+}
+.video2 {
+	width: 100%;
+	height: 180px;
+	margin: 0px;
+	background-image: url(../images/video-2-apostas-online.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 95%;
+}
+.video3 {
+	width: 100%;
+	height: 180px;
+	margin: 0px;
+	background-image: url(../images/video-3-apostas-online.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 95%;
+}
+.video1:hover{	background-image: url(../images/lock-apostas-online.png);
+}
+.video2:hover{	background-image: url(../images/lock-apostas-online.png);
+}
+.video3:hover{	background-image: url(../images/lock-apostas-online.png);
+}
+
+/* -------------------CONTENT--------------------- */
+
+.bold-3 {color: #2bd86f; font-family: 'Offside', cursive;}
+
+.topicos{
+	background-color: black;
+}
+main{
+	background-image: url(../images/back-2_03.png);
+	background-size: 100%;
+	background-color: black;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.topicos h2{
+	font-family: 'Monda', sans-serif;
+	color: #25d338;
+	text-transform: uppercase;
+	font-family: 'Monda', sans-serif;
+	font-size: 25px;
+
+}
+.trader h3{
+	font-family: 'Monda', sans-serif;
+	color: #2bd86f;
+	text-transform: uppercase;
+	font-family: 'Monda', sans-serif;
+	font-size: 25px;
+}
+.topicos img{
+	width: 110px;
+	margin: 0 0 20px 0;
+}
+.topico{
+	margin: 100px 0 0 0px;}
+
+.topicos p{
+	font-family: 'Offside', cursive;
+	color: white;
+	font-size: 15px;
+	line-height: 35px;
+}
+
+section{
+	margin: 90px 0;
+}
+
+.trader img{
+	width: 80%;
+}
+
+.trader p{
+	font-family: 'Offside', cursive;
+	color: #848484;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.trader-duarte p{
+	margin: 50px 0 50px 0;}
+
+.foto-trader{
+	margin: 50px 0 10px;}
+
+li{
+	display: inline-block;
+	margin: 20px 4px;
+	width: 24px;
+	height: 24px;
+}
+ul{
+	padding: 0;
+
+}
+.fb{
+	background-image: url(../images/facebook-logo-button.png);
+}
+
+.topicos2{
+	
+	margin: 0 0 80px 0;
+}
+
+/* -------------------FOOTER--------------------- */
+
+footer{
+	background-color: black;
+}
+
+footer img{
+	width: 80px;
+	margin: 40px;
+	
+}
+footer p{
+	margin: 50px 0;
+	
+}
+footer a{
+	text-decoration: none;
+	color:#333333;
+}
+
+.LCAS{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
