@@ -1,0 +1,276 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Offside&subset=latin-ext');
+/* CSS Document */
+body{
+	margin: 0;
+}
+
+.container{
+			max-width: 900px;
+		}
+
+hr.white{
+	border: 0;
+	height: 2px;
+	background: -webkit-linear-gradient(left, white, rgba(0,0,0,0));
+}
+hr.white-2{
+	border: 0;
+	height: 1px;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0), white, rgba(0,0,0,0));
+	margin-top: 0;
+}
+
+/* -------------------VIDEOS--------------------- */
+
+.video{
+	background-image:url(../images/back-video.png);
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+.logo-head{
+	margin:20px 0 20px;
+}
+.logo-head img{
+	width: 250px;
+}
+
+
+.video-1 iframe{
+    width: 100%;
+	height: 445px;
+   	 position: relative;
+	margin-top: 10px;
+}
+
+.videoWrapper {
+	margin: 20px 0;
+	position: relative;
+	padding-bottom: 40%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.ep{
+	width: 100%;
+		
+}
+
+.episodios h2{
+	font-family: 'Monda', sans-serif;
+	color: #25d338;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.text-pdf h3{
+	font-family: 'Monda', sans-serif;
+	color: #25d338;
+	text-transform: uppercase;
+	
+	font-size: 16px;
+	margin: 0;
+}
+
+.material p{
+	font-family: 'Offside', cursive;
+	color: white;
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.live{
+	position: absolute;
+	color: #25d338;
+	border: 1px solid #25d338;
+	width: 25%;
+	font-size: 12px;
+	border-radius: 50px;
+	float: left;
+	margin: 10px;
+	padding: 0 5px;
+}
+
+
+
+.lock{
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+	opacity: 0;
+}
+.lock img{
+	margin:0;padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.lock:hover{
+	opacity: 100;
+
+}
+
+.thumb-ep img{
+	width: 100%;
+	margin: 3px 0;
+}
+
+
+.share{
+	display: inline-flex;
+	margin: 30px 0 0 0;
+
+
+}
+
+.material{
+	margin: 5px 0 40px 0;
+}
+
+.pdf img{
+	width: 40px;
+}
+
+.facebook{
+
+	border: none;
+	border-radius: 50px;
+    cursor: pointer;
+	color: white;
+	background-color: #3b5998;
+	font-size: 16px;
+	margin: 30px 0 0 0;
+	height: 35px;
+	
+}
+.fa-facebook{
+	margin: 0 20px 0 0;
+}
+.facebook:hover{
+	background-color:#30497D;
+}
+
+/* -------------------REDES--------------------- */
+.redes{
+	background: -webkit-linear-gradient(left, #07b917, #2bd86f);
+	padding: 20px;
+}
+
+.content-redes{
+	display: inline-flex;
+	padding: 0 20px;
+}
+.content-redes p{
+	font-family: 'Offside', cursive;
+	color: white;
+	font-size: 15px;
+}
+
+/* -------------------ASIDE/COMMENTS--------------------- */
+
+.ca{
+	background-image:url(../images/../images/back-video-2.png);
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.comments, aside{
+	margin: 20px 0 20px;
+}
+
+aside img{
+	width: 100%;
+}
+.comunidade{
+	margin-bottom: 20px;
+}
+aside p{
+	font-family: 'Offside', cursive;
+	color: black;
+	font-size: 15px;
+}
+
+.de-1{
+	margin: 20px 0;
+}
+
+.depoimentos h4{
+ 	font-family: 'Monda', sans-serif;
+	color: #25d338;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+.text-box {
+	position: relative;
+	background: #ffffff;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+.text-box:after, .text-box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.text-box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.text-box:before {
+	border-color: rgba(191, 191, 191, 0);
+	border-bottom-color: #bfbfbf;
+	border-width: 16px;
+	margin-left: -16px;
+}
+
+/* -------------------FOOTER--------------------- */
+
+footer{
+	background-color: black;
+}
+
+footer img{
+	width: 80px;
+	margin: 40px;
+	
+}
+footer p{
+	margin: 50px 0;
+	
+}
+footer a{
+	text-decoration: none;
+	color:#333333;
+}
+
+.LCAS{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
